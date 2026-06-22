@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Owais — Frontend Developer & AI Enthusiast</title>
+    <meta name="description" content="Computer Science Student | Frontend Developer | AI Enthusiast">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Progress Bar -->
+    <div id="progress-bar"></div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <a href="#" class="logo">Owais<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+            <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get In Touch</button>
+        </div>
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-eyebrow">
+                <span class="status-dot"></span>
+                CSE Student · Open to Opportunities
+            </div>
+            <h1>Hi, I'm <span class="gradient-text">Owais</span></h1>
+            <p class="hero-subtitle">Computer Science Student</p>
+            <p class="hero-description">Frontend Developer | AI Enthusiast</p>
+            <p class="hero-tagline">Building responsive websites and innovative solutions at the intersection of web development and AI.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View My Work →</a>
+                <a href="#contact" class="btn btn-outline">Let's Talk</a>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <span>Scroll to explore</span>
+            <div class="scroll-wheel"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-wrapper">
+            <div class="about-image reveal"><img src="https://i.ibb.co/Jj3rQj2g/nme.png" alt="Md Owais"></div>
+            <div class="about-content reveal">
+                <h3>Who I Am</h3>
+                <p>I'm a Computer Science student passionate about Frontend Development, Artificial Intelligence, and Software Development. I enjoy building responsive websites, learning new technologies, and solving real-world problems.</p>
+                <p>I'm continuously improving my technical and communication skills, and I'm especially excited about combining web development with AI to create intelligent, impactful solutions.</p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <h4>🎯 Goal-Driven</h4>
+                        <p>Focused on building things that create real value</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h4>🤖 AI Curious</h4>
+                        <p>Exploring how AI can enhance web experiences</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h4>💡 Problem Solver</h4>
+                        <p>Analytical thinker who loves clean solutions</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h4>📚 Quick Learner</h4>
+                        <p>Always picking up new tools and concepts fast</p>
+                    </div>
+                </div>
+
+                <div class="currently-learning">
+                    <h4>🔥 Currently Learning</h4>
+                    <div class="learning-tags">
+                        <span class="learning-tag">Advanced Frontend</span>
+                        <span class="learning-tag">JavaScript</span>
+                        <span class="learning-tag">Python</span>
+                        <span class="learning-tag">DSA</span>
+                        <span class="learning-tag">AI Applications</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-grid">
+
+            <div class="skill-category reveal">
+                <h3 class="skill-title">⌨️ Programming Languages</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3 class="skill-title">🌐 Web Development</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">UI/UX Fundamentals</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3 class="skill-title">🖥️ Computer Science</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Data Structures & Algorithms</span>
+                    <span class="skill-tag">Operating Systems</span>
+                    <span class="skill-tag">DBMS</span>
+                    <span class="skill-tag">Computer Architecture</span>
+                    <span class="skill-tag">AI Fundamentals</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3 class="skill-title">🛠️ Tools & Technologies</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">ChatGPT</span>
+                    <span class="skill-tag">AI Productivity Tools</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3 class="skill-title">🤝 Soft Skills</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Teamwork</span>
+                    <span class="skill-tag">Quick Learning</span>
+                    <span class="skill-tag">Analytical Thinking</span>
+                    <span class="skill-tag">Time Management</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal interests-card">
+                <h3 class="skill-title">✨ Interests</h3>
+                <div class="skill-items">
+                    <span class="skill-tag">Frontend Development</span>
+                    <span class="skill-tag">Artificial Intelligence</span>
+                    <span class="skill-tag">Web Technologies</span>
+                    <span class="skill-tag">Software Development</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-filter reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+        </div>
+        <div class="projects-grid">
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-image">🎓</div>
+                <div class="project-content">
+                    <h3 class="project-title">College Admission Portal</h3>
+                    <p class="project-desc">A full-stack College Admission Portal to digitize and simplify the student admission process. Students can register, fill out admission forms, upload required documents, and track their application status online. Features include an Admin Dashboard for management, secure database integration, and a responsive design for desktop.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML5</span>
+                        <span class="project-tag">CSS3</span>
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-image">🧮</div>
+                <div class="project-content">
+                    <h3 class="project-title">Calculator Web App</h3>
+                    <p class="project-desc">A sleek, fully functional calculator with a modern dark UI. Supports keyboard input, live expression preview, calculation history, percentage operations, and bracket support — all built with vanilla JavaScript and a custom design system.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info reveal">
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:owais@example.com">mdowais859@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <a href=https://www.linkedin.com/in/md-owais-b4141734b?utm_source=share_via&utm_content=profile&utm_medium=member_android">linkedin.com/in/owais</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">💻</div>
+                    <div>
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/owais-core03">github.com/owais</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>India</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form reveal" id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="off">
+                    <span class="form-error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="off">
+                    <span class="form-error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell me about your project or idea..." required></textarea>
+                    <span class="form-error" id="messageError"></span>
+                </div>
+                <button type="submit" class="btn btn-submit" id="submitBtn">
+                    <span class="btn-text">Send Message</span>
+                </button>
+                <div class="form-success" id="formSuccess">
+                    ✅ Message sent! I'll get back to you soon.
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Md Owais. All rights reserved. | Built with passion and code 💻</p>
+        <button class="back-to-top" id="backToTop" title="Back to top">↑</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
