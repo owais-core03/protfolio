@@ -138,3 +138,4 @@ Passionate Developer focused on creating responsive and user-friendly web applic
 ---
 
 ⭐ If you found this project helpful, consider giving it a star on GitHub.
+
